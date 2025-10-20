@@ -25,7 +25,7 @@ def school_login():
 
     try:
         # 使用显式等待而不是固定sleep
-        wait = WebDriverWait(driver, 10)
+        wait = WebDriverWait(driver, 0.5)
 
         # 等待页面完全加载
         print("等待页面加载...")
@@ -191,4 +191,5 @@ def school_login():
 
 
 if __name__ == "__main__":
+
     school_login()
