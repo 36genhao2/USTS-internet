@@ -1,8 +1,5 @@
 在桌面上创建账号.txt输入账号，密码，账号密码之间换行
 建议使用pycharm运行，方便安装库
-如果进入网址未选择运营商，请手动进入py将sleep（5）修改为10
-(有些时候edge启动较慢，目前未知)
-如果网址发生变动，请手动修改py文件
 代码部分由ai生成，通过查找元素定位请选择运营商。正常的radio和lable都不行，JavaScript动态加载或者元素定位可能不准确
 测试是用的中国联通，其他三个都能正常填入，有问题请反馈
 库
@@ -13,5 +10,3 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select
 import os
 import time
-
-
