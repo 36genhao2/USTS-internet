@@ -1,0 +1,11 @@
+在桌面上创建账号.txt输入账号，密码，账号密码之间换行
+建议使用pycharm运行，方便安装库
+代码部分由ai生成，通过查找元素定位请选择运营商。正常的radio和lable都不行，JavaScript动态加载或者元素定位可能不准确
+库
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import Select
+import os
+import time
