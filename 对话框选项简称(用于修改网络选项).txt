@@ -1,0 +1,4 @@
+"@cmcc"中国移动
+"@telecom"中国电信
+"@unicom" selected中国联通
+"@keda"校园网
