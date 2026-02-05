@@ -42,7 +42,7 @@
 依赖库
 运行此脚本需要安装以下Python库：
 
-python
+```python
 from selenium import webdriver
 
 from selenium.webdriver.common.by import By
