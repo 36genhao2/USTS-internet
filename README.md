@@ -29,33 +29,27 @@
   wait = WebDriverWait(driver, 0.5)
 将 0.5 改为更大的数值（如 1、5、10），以增加等待时间。
 
-元素定位说明
+###元素定位说明
 代码通过查找页面元素来定位操作位置，由于JavaScript动态加载或页面结构变化，元素定位可能不准确。
 
 在运营商选择环节，正常的radio和label元素可能无法被正常识别，脚本使用了特殊的定位方式。
 
-测试信息
+###测试信息
 当前测试环境使用中国联通，其他三个运营商（中国移动、中国电信、校园网）理论上都能正常填入。
 
 如果在使用过程中遇到问题，请及时反馈。
 
-依赖库
+###依赖库
 运行此脚本需要安装以下Python库：
 
 ```python
 from selenium import webdriver
-
 from selenium.webdriver.common.by import By
-
 from selenium.webdriver.support.ui import WebDriverWait
-
 from selenium.webdriver.support import expected_conditions as EC
-
 from selenium.webdriver.support.ui import Select
-
 import os
-
 import time
 
-免责声明
+###免责声明
 本脚本由AI生成，仅供学习和研究使用。请遵守校园网使用规定，不要滥用自动连接功能。如因使用本脚本造成任何问题，使用者需自行承担责任。
