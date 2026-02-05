@@ -51,5 +51,5 @@ from selenium.webdriver.support.ui import Select
 import os
 import time
 
-###免责声明
+### 免责声明
 本脚本由AI生成，仅供学习和研究使用。请遵守校园网使用规定，不要滥用自动连接功能。如因使用本脚本造成任何问题，使用者需自行承担责任。
