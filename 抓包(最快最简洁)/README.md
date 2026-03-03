@@ -13,7 +13,9 @@
   ```python
   username = ""  # 例如：20231145
   password = ""  # 例如：123456
+
 选择运营商：脚本中已列出四种后缀，请只保留你需要的行（去掉行首的 #），其他行请保持注释状态：
+
   ```python
    # carrier_suffix = "@keda"      # 校园网
    # carrier_suffix = "@cmcc"      # 中国移动 (CMCC)
