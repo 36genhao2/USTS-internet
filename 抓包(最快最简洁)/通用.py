@@ -4,7 +4,7 @@ import requests
 username = ""  # 例如：20231145
 password = ""  # 例如：123456
 
-# --- 2. 选择运营商（只保留你想用的那一行，去掉 # 号）---
+# === 2. 选择运营商（只保留你想用的那一行，去掉 # 号）===
 # carrier_suffix = "@keda"      # 校园网
 #carrier_suffix = "@cmcc"  # 中国移动 (CMCC)
 carrier_suffix = "@unicom"    # 中国联通
@@ -52,4 +52,5 @@ try:
         # print(response.text)
 
 except Exception as e:
+
     print(f" 网络请求出错: {e}")
